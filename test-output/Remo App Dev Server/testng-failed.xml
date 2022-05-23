@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Remo App Dev Server]">
+  <test name="Remo App Testing(failed)">
+    <classes>
+      <class name="riotlySocialTests.checkscreenshotfolder">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="OnBoarding"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- riotlySocialTests.checkscreenshotfolder -->
+    </classes>
+  </test> <!-- Remo App Testing(failed) -->
+</suite> <!-- Failed suite [Remo App Dev Server] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Remo Conference Automation]">
+  <test name="Happy Path Testing(failed)">
+    <classes>
+      <class name="HappyPathTesting.admin">
+        <methods>
+          <include name="TC_A_5"/>
+          <include name="setupSuite"/>
+          <include name="TC_A_10"/>
+          <include name="TC_A_9"/>
+          <include name="TC_A_2"/>
+          <include name="TC_A_3"/>
+          <include name="TC_A_4"/>
+          <include name="tearDown"/>
+          <include name="TC_A_6"/>
+          <include name="TC_A_7"/>
+          <include name="TC_A_8"/>
+          <include name="TC_A_1"/>
+        </methods>
+      </class> <!-- HappyPathTesting.admin -->
+    </classes>
+  </test> <!-- Happy Path Testing(failed) -->
+</suite> <!-- Failed suite [Remo Conference Automation] -->

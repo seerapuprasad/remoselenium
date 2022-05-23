@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Remo Virtual Networking" parallel="none" thread-count="2">
+	<test name="Join Event as Existing Guest While converstation is happening">
+		<classes>
+			<class name="smokeTesting.ExistingGuestJoin"></class>
+		</classes>
+	</test>
+</suite>

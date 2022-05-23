@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Remo Virtual Networking" parallel="none" thread-count="2">
+	<test name="Host Creation of event, Gear test, Converstation and Presetation">
+		<classes>
+			<class name="smokeTesting.HostConvAndPresentation"></class>
+		</classes>
+	</test>
+</suite>

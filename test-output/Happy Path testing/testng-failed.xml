@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Happy Path testing]">
+  <test name="Happy Path testing(failed)">
+    <classes>
+      <class name="riotlySocialTests.happyPath">
+        <methods>
+          <include name="checkingcornerIcons"/>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="startTest"/>
+          <include name="Onboarding"/>
+        </methods>
+      </class> <!-- riotlySocialTests.happyPath -->
+    </classes>
+  </test> <!-- Happy Path testing(failed) -->
+</suite> <!-- Failed suite [Happy Path testing] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="riotlySocialTests.SignUp">
+        <methods>
+          <include name="newMember"/>
+        </methods>
+      </class> <!-- riotlySocialTests.SignUp -->
+      <class name="accelerators.Base">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- accelerators.Base -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

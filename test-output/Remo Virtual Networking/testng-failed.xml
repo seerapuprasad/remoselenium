@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Remo Virtual Networking]" guice-stage="DEVELOPMENT">
+  <test name="Join Event as New Guest while the presenation is happening(failed)">
+    <classes>
+      <class name="smokeTesting.NewGuestJoin">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="TC_NewGuestJoin_3"/>
+        </methods>
+      </class> <!-- smokeTesting.NewGuestJoin -->
+    </classes>
+  </test> <!-- Join Event as New Guest while the presenation is happening(failed) -->
+</suite> <!-- Failed suite [Remo Virtual Networking] -->

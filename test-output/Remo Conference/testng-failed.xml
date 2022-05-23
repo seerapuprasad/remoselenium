@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Remo Conference]">
+  <test name="Create new Account and Company(failed)">
+    <classes>
+      <class name="smokeTesting.NewAccount">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="TC_NewAccount_2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- smokeTesting.NewAccount -->
+    </classes>
+  </test> <!-- Create new Account and Company(failed) -->
+</suite> <!-- Failed suite [Remo Conference] -->
